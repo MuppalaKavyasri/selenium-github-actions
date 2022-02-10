@@ -1,8 +1,7 @@
 name: scrape
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '23 4 * * *'  # every day at midnight
+    - cron: '27 4 * * *'  # every day at midnight
 jobs:
   scrape:
     runs-on: ubuntu-latest
