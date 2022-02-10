@@ -1,7 +1,8 @@
 name: scrape
 on:
+  push:
   schedule:
-    - cron: '27 4 * * *'  # every day at midnight
+    - cron: '30 4 * * *'  # every day at midnight
 jobs:
   scrape:
     runs-on: ubuntu-latest
